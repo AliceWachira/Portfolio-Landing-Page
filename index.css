@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.header {
+    height: 120px;
+    box-sizing: border-box;
+    font-size: x-large;
+    font-weight: 500;
+    position: sticky;
+    position: -webkit-sticky;
+    /* Safari */
+    z-index: 999;
+    top: 0;
+}
+
+.nav_logo {
+    margin: 5px;
+    padding: 5px;
+    background: linear-gradient(to left top, pink, rgb(110, 110, 117)), 100%;
+    width: 7%;
+    height: 30%;
+}
+
+.logo {
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
