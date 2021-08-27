@@ -54,3 +54,34 @@
     text-decoration: none;
     padding: 3rem;
 }
+
+.grid_container {
+    height: 40%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid_name {
+    background-color: #AE9F9F;
+    height: 100%;
+}
+
+.grid_name>h1 {
+    margin-top: 25%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+.grid_name>h3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+.image1 {
+    width: 70%;
+}
+
+.grid_image1 {
+    justify-content: right;
+    margin-left: 20%;
+}
