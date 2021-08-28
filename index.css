@@ -52,12 +52,7 @@
     padding: 2.5rem;
 }
 
-ul>li:hover {
-    color: blueviolet;
-}
-
 .grid_container {
-    height: 40%;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -69,7 +64,6 @@ ul>li:hover {
 
 .grid_name>img {
     width: 90%;
-    height: 100%;
 }
 
 .grid_name>h1 {
